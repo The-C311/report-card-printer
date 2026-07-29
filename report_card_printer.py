@@ -1,14 +1,11 @@
 name = "Alice"
-print(name, type(name))
+print(f"Name: {name}")
 
 is_student = True
-print(is_student, type(is_student))
+print(f"Is Student: {is_student}, Type: {type(is_student)}")
 
 age = 20
-print(age, type(age))
+print(f"Age: {age}, Age data Type: {type(age)}")
 
 score = 80.5
-print(isinstance(score, float))
-
-print(score, type(score))
-
+print(f"Score: {score}, Score data Type: {type(score)}")
